@@ -1,5 +1,8 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+// 1) Computer will generate a random number
+// 2) User input for guessing number
+// 3) Compare user input with computer number and show result - done 
 const randomNumber = Math.floor(Math.random() * 10 + 1);
 console.log("welcome to Number Guessing Game!");
 const answers = await inquirer.prompt([
